@@ -11,7 +11,8 @@ import SwiftUI
 struct muqlaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            home()
+              //  .preferredColorScheme(.dark)// for make the pages in dark
         }
     }
 }
